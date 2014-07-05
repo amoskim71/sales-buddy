@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ngocketit.saovietcrm"
+    android:versionCode="4"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.SaovietCRMApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Saoviet.SaovietCRM" >
+
+        <activity
+            android:theme="@style/SplashScreen"
+            android:name="com.ngocketit.saovietcrm.activity.SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+        <!-- File chooser lib activity -->
+        <activity
+            android:name="com.ipaulpro.afilechooser.FileChooserActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/ic_folder_open"
+            android:label="@string/select_file">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+            android:label="@string/login" 
+            android:name=".activity.UserLoginActivity"/>
+
+        <activity 
+            android:name=".activity.HomeListActivity"/>
+
+        <activity 
+            android:label="@string/signup" 
+            android:name=".activity.UserSignupActivity"/>
+        <activity
+            android:parentActivityName=".activity.ChartListActivity"
+            android:label="@string/sales_revenue" 
+            android:name=".activity.SalesRevenueChartViewActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.ChartListActivity" />
+        </activity>
+        <activity
+            android:parentActivityName=".activity.AboutHelpActivity"
+            android:label="@string/about_help" 
+            android:name=".activity.HelpTopicDetailActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.AboutHelpActivity" />
+        </activity>
+        <activity
+            android:parentActivityName=".activity.HomeListActivity"
+            android:label="@string/charts" 
+            android:name=".activity.ChartListActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>
+        <activity
+            android:parentActivityName=".activity.HomeListActivity"
+            android:label="@string/sale_lines" 
+            android:name=".activity.SaleLineListActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>
+
+        <activity
+            android:parentActivityName=".activity.SaleLineListActivity"
+            android:label="@string/add_sale_line" 
+            android:name=".activity.SaleLineFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>
+
+        <activity
+            android:name=".activity.ProductListActivity"
+            android:label="@string/products" 
+            android:parentActivityName=".activity.HomeListActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>
+
+        <activity
+            android:parentActivityName=".activity.ProductListActivity"
+            android:label="@string/add_product" 
+            android:name=".activity.ProductFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>
+
+        <activity
+            android:parentActivityName=".activity.HomeListActivity"
+            android:label="@string/orders" 
+            android:name=".activity.OrderListActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>
+
+        <activity
+            android:parentActivityName=".activity.OrderListActivity"
+            android:label="@string/add_order" 
+            android:name=".activity.OrderFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.OrderListActivity" />
+        </activity>
+
+        <activity
+            android:parentActivityName=".activity.HomeListActivity"
+            android:label="@string/product_cats" 
+            android:name=".activity.ProductCategoryListActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>               
+        
+        <activity
+            android:parentActivityName=".activity.HomeListActivity"
+            android:label="@string/settings_tools" 
+            android:name=".activity.SettingsToolsActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>               
+        <activity
+            android:parentActivityName=".activity.SettingsToolsActivity"
+            android:label="@string/import_customers" 
+            android:name=".activity.CustomerImportFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.SettingsToolsActivity" />
+        </activity>               
+        <activity
+            android:parentActivityName=".activity.SettingsToolsActivity"
+            android:label="@string/import_products" 
+            android:name=".activity.ProductImportFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.SettingsToolsActivity" />
+        </activity>               
+        <activity
+            android:parentActivityName=".activity.SettingsToolsActivity"
+            android:label="@string/import_product_cats" 
+            android:name=".activity.ProductCategoryImportFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.SettingsToolsActivity" />
+        </activity> 
+        <activity
+            android:parentActivityName=".activity.SettingsToolsActivity"
+            android:label="@string/import_lines" 
+            android:name=".activity.SaleLineImportFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.SettingsToolsActivity" />
+        </activity> 
+        <activity
+            android:parentActivityName=".activity.HomeListActivity"
+            android:label="@string/help" 
+            android:name=".activity.AboutHelpActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+        </activity>    
+        
+        <activity
+            android:parentActivityName=".activity.ProductCategoryListActivity"
+            android:label="@string/add_product_cat" 
+            android:name=".activity.ProductCategoryFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.ProductCategoryListActivity" />
+        </activity>
+
+        <activity
+            android:parentActivityName=".activity.HomeListActivity"
+            android:label="@string/customers" 
+            android:name=".activity.CustomerListActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.HomeListActivity" />
+       	</activity>
+
+        <activity
+            android:parentActivityName=".activity.CustomerListActivity"
+            android:label="@string/add_customer" 
+            android:name=".activity.CustomerFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.CustomerListActivity" />
+        </activity>
+
+        <activity
+            android:parentActivityName=".activity.OrderLineItemListActivity"
+            android:label="@string/add_order_line_item" 
+            android:name=".activity.OrderLineItemFormActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.OrderLineItemListActivity" />
+        </activity>
+
+        <activity
+            android:label="@string/order_line_items" 
+            android:name=".activity.OrderLineItemListActivity">
+        </activity>
+
+        <activity
+            android:label="@string/calculator" 
+            android:name=".activity.PriceCalculatorListActivity">
+        </activity>
+
+        <activity 
+            android:label="@string/add_order_line_item" 
+            android:name=".activity.PriceCalculatorLineItemFormActivity">
+        </activity>
+
+        <provider 
+            android:name=".provider.SaovietCRMContentProvider" 
+            android:exported="false"
+            android:authorities="com.ngocketit.saovietcrm.provider.contentprovider">
+        </provider>
+    </application>
+
+</manifest>

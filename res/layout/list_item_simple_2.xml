@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/saovietcrm_list_item"
+    android:orientation="vertical">
+    
+    	<TextView
+    	    android:id="@android:id/text1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginBottom="4dp"
+    	    android:layout_marginLeft="6dp"
+    	    android:layout_marginTop="8dp"
+    	    android:ellipsize="end"
+    	    android:lines="1"
+    	    android:maxLines="1"
+    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    	<TextView
+    	    android:id="@android:id/text2"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="6dp"
+    	    android:ellipsize="end"
+    	    android:lines="1"
+    	    android:maxLines="1"
+    	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

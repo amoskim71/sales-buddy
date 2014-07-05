@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="branding_yellow_dark">#f69f09</color>
+    <color name="branding_red">#c30011</color>
+    <color name="list_section_header_bg">#ff524E50</color>
+    <color name="gray">#d3d3d3</color>
+</resources>

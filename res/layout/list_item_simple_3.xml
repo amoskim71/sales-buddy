@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/saovietcrm_list_item"
+    android:orientation="vertical">
+    
+    <include
+        android:id="@+id/listSectionHeaderContainerView" 
+        android:visibility="gone"
+        layout="@layout/list_item_default_section_header_2"/>
+
+	<LinearLayout
+	    android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="64dp">
+    	
+    	<TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+    	<TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    	
+    	<TextView
+                android:id="@android:id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/rating"
+                android:layout_alignParentLeft="true"
+            	android:layout_centerVertical="true"
+            	android:layout_marginLeft="6dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+      </RelativeLayout>
+
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listSectionHeaderView"
+    android:layout_width="match_parent"
+    android:layout_height="24dp"
+    android:background="@color/branding_red"
+    android:clickable="false"
+    android:gravity="center_vertical|left"
+    android:paddingLeft="5dp"
+    android:textColor="#ffffffff"
+    android:textSize="14sp"
+    android:textStyle="bold" />

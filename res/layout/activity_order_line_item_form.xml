@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical" >
+   
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/txtProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/product_name"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="false"
+            android:ems="10" >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/btnPickProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/selector_with_transparency"
+            android:src="@drawable/ic_edit_gray" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/quantity_price"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <EditText
+       android:id="@+id/txtQuantity"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="@string/quantity"
+       android:inputType="number" />
+
+   <EditText
+       android:id="@+id/txtPrice"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="@string/price"
+       android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/bogo_discount"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <EditText
+        android:id="@+id/txtBogoBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/bogo_buy"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtBogoGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/bogo_get"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/total_price_and_quantity"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RelativeLayout 
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+                android:id="@+id/lblTotalDeliveryQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="16dp"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+                android:id="@+id/lblTotalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:text="@string/unknown"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

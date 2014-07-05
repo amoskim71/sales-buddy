@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">Ngôn ngữ</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    
+    <string name="login">Đăng nhập</string>
+    <string name="signup">Đăng ký</string>
+    <string name="name">Tên</string>
+    <string name="address">Địa chỉ</string>
+    <string name="save">Lưu</string>
+    <string name="customer">Khách hàng</string>
+    <string name="quantity">Số lượng</string>
+    <string name="discount">Chiết khấu (%)</string>
+    <string name="select">Chọn</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="welcome">Xin chào:</string>
+    <string name="delete">Xoá</string>
+    <string name="no_items">Không có</string>
+    
+    <string name="search">Tìm kiếm</string>
+    <string name="add">Thêm mới</string>
+    <string name="import_export">Import</string>
+    
+    <string name="line_add">Thêm tuyến</string>
+    <string name="line_edit">Sửa tuyến</string>
+    <string name="line_name">Tên tuyến</string>
+    <string name="line_address">Địa chỉ tuyến</string>
+    
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="product_code">Mã sản phẩm</string>
+    <string name="product_price">Đơn giá</string>
+    <string name="bogo_discount">Chiết khấu BOGO</string>
+    <string name="bogo_buy">Số lượng mua</string>
+    <string name="bogo_get">Số lượng tặng</string>
+    
+    <string name="order_type">Loại đơn hàng</string>
+    <string name="order_type_retail">Bán lẻ</string>
+    <string name="order_type_wholesale">Bán buôn</string>
+    
+    <string name="customer_type">Loại khách hàng</string>
+    <string name="customer_type_private">Cá nhân</string>
+    <string name="customer_type_company">Công ty</string>
+    <string name="shop_name">Tên cửa hàng</string>
+    <string name="owner_name">Tên chủ cửa hàng</string>
+    <string name="mobile_phone">Điện thoại di động</string>
+    <string name="landline_phone">Điện thoại bàn</string>
+    <string name="sale_line">Tuyến bán hàng</string>
+    <string name="note">Ghi chú</string>
+    <string name="rate">Xếp hạng</string>
+    <string name="evaluation_text">Đánh giá</string>
+    <string name="phone">Điện thoại</string>
+    <string name="price">Giá</string>
+    <string name="total_price">Giá tổng cộng</string>
+    <string name="total_price_colon">Giá tổng cộng:</string>
+    <string name="order_details">Chi tiết đơn hàng</string>
+
+    <string name="quantity_discount">Số lượng &amp; chiết khấu</string>
+    <string name="quantity_price">Số lượng &amp; giá </string>
+    <string name="gender_dob">Giới tính &amp; ngày sinh</string>
+    
+    <string name="customer_management">Quản lý khách hàng</string>
+    <string name="product_management">Quản lý sản phẩm</string>
+    <string name="order_management">Quản lý đơn hàng</string>
+    <string name="saleline_management">Quản lý tuyến</string>
+    <string name="product_cat_management">Quản lý loại sản phẩm</string>
+    <string name="calculator">Tính giá</string>
+    <string name="settings">Thiết lập</string>
+    
+    <string name="customers">Khách hàng</string>
+    <string name="products">Sản phẩm</string>
+    <string name="orders">Đơn hàng</string>
+    <string name="sale_lines">Tuyến bán hàng</string>
+    <string name="order_line_items">Thành phần đơn hàng</string>
+    <string name="product_cats">Loại sản phẩm</string>
+    <string name="category">Loại</string>
+
+    <string name="add_product_cat">Thêm loại sản phẩm</string>
+    <string name="edit_product_cat">Sửa loại sản phẩm</string>
+
+    <string name="add_customer">Thêm khách hàng</string>
+    <string name="edit_customer">Sửa khách hàng</string>
+
+    <string name="add_product">Thêm sản phẩm</string>
+    <string name="edit_product">Sửa sản phẩm</string>
+
+    <string name="add_sale_line">Thêm tuyến</string>
+    <string name="edit_sale_line">Sửa tuyến</string>   
+
+    <string name="add_order">Thêm đơn hàng</string>
+    <string name="edit_order">Sửa đơn hàng</string>
+    
+    <string name="add_order_line_item">Thêm thành phần đơn hàng</string>
+    <string name="edit_order_line_item">Sửa thành phần đơn hàng</string>
+
+    <string name="user_email">Địa chỉ email</string>
+    <string name="user_password">Mật khẩu</string>
+    <string name="user_password_confirm">Xác nhận mật khẩu</string>
+    <string name="user_fullname">Tên đầy đủ</string>
+    <string name="user_phone">Số điện thoại</string>
+    <string name="user_dob">Ngày sinh</string>
+    <string name="user_gender">Giới tính</string>
+    <string name="user_login_fail">Đăng nhập thất bại</string>
+    <string name="user_login_empty_fields">Vui lòng nhập địa chỉ email và mật khẩu</string>
+    <string name="user_login_remember">Lưu trạng thái đăng nhập</string>
+    
+    <string name="customer_alert_type">Vui lòng chọn loại khách hàng</string>
+    <string name="customer_alert_shopname">Vui lòng nhập tên cửa hàng</string>
+    <string name="customer_alert_ownername">Vui lòng nhập tên chủ cửa hàng</string>
+    <string name="customer_alert_address">Vui lòng nhập địa chỉ</string>
+    <string name="customer_alert_phone">Vui lòng nhập số điện thoại</string>
+    
+    <string name="order_alert_customer">Vui lòng chọn khách hàng</string>
+    <string name="order_alert_type">Vui lòng chọn kiểu đơn hàng</string>
+    <string name="order_alert_quantity">Vui lòng nhập số lượng</string>
+    <string name="order_alert_quantity_invalid">Số lượng không hợp lệ</string>
+    <string name="order_alert_product">Vui lòng chọn sản phẩm</string>
+    
+    <string name="product_alert_name">Vui lòng nhập tên sản phẩm</string>
+    <string name="product_alert_code">Vui lòng nhập mã sản phẩm</string>
+    <string name="product_alert_price">Vui lòng nhập giá sản phẩm</string>
+
+    <string name="line_alert_name">Vui lòng nhập tên</string>
+    <string name="line_alert_address">Vui lòng nhập địa chỉ</string>
+    
+    <string name="user_alert_name">Vui lòng nhập tên đầy đủ</string>
+    <string name="user_alert_email">Vui lòng nhập địa chỉ email</string>
+    <string name="user_alert_phone">Vui lòng nhập số điện thoại</string>
+    <string name="user_alert_password">Vui lòng nhập mật khẩu</string>
+    <string name="user_alert_password_confirm">Mật khẩu không trùng khớp</string>
+    <string name="user_signup_fail">Không đăng ký được</string>
+    
+    <string name="delete_alert">Bạn có chắc chắn muốn xoá?</string>
+    <string name="call_fail_alert">Không thực hiện được cuộc gọi</string>
+    <string name="save_fail_alert">Không lưu được</string>    
+    <string name="user_signup_success">Đăng ký thành công</string>
+
+    <string name="about_help">Giới thiệu &amp; trợ giúp</string>
+    <string name="help">Trợ giúp</string>
+    <string name="select_file">Chọn file</string>
+    <string name="unknown">Chưa biết</string>
+    <string name="total_price_and_quantity">Số lượng &amp; giá tổng cộng</string>
+    
+    <string name="tools">Công cụ</string>
+    <string name="settings_tools">Thiết lập &amp; công cụ</string>
+
+    <string name="import_customers">Import khách hàng</string>
+    <string name="import_products">Import sản phẩm</string>
+    <string name="import_lines">Import tuyến</string>
+    <string name="import_product_cats">Import loại sản phẩm</string>
+    <string name="delete_old_items">Xoá dữ liệu hiện tại</string>
+    <string name="file_path">Đường dẫn file</string>
+    <string name="select_file">Chọn file</string>
+    <string name="delete_old_items_warning">CHÚ Ý: Toàn bộ dữ liệu hiện tại trong bảng sẽ bị xoá. Bạn có chắc chắn muốn tiếp tục?</string>
+    <string name="select_file_alert">Vui lòng chọn đường dẫn file dữ liệu</string>
+    
+    <string name="show_all">Hiện toàn bộ</string>
+    <string name="top_20_order_value">Top 20 đơn hàng</string>
+    <string name="top_20_rated">Top 20 đánh giá</string>
+    <string name="created_date">Ngày tạo</string>
+
+    <string name="signup_success">Đăng ký thành công!</string>
+    <string name="uncategorized">Không phân loại</string>
+    <string name="unlined">Chưa định tuyến</string>
+
+    <string name="help_general">Trợ giúp chung</string>
+    <string name="about_content">
+        <![CDATA[
+        Bản quyền © 2014 thuộc về <strong>Phí Văn Minh</strong><br/>
+        Giữ toàn bộ bản quyền<br/><br/>
+        Muốn biết thêm chi tiết xin vui lòng liên lạc:<br/> 
+        <b>Email</b>: <a href="mailto:minhpv12@gmail.com">minhpv12@gmail.com</a><br/>
+        <b>Điện thoại</b>: <a href="tel:0913268296">0913268296</a>
+         ]]>
+    </string>
+    <string name="help_general_content">
+        <![CDATA[
+        <p>Bản quyền © 2014 thuộc về <strong>Phí Văn Minh</strong><br/>
+        Giữ toàn bộ bản quyền</p>
+        <p>Muốn biết thêm chi tiết xin vui lòng liên lạc:</p> 
+        <p><b>Email</b>: <a href="mailto:minhpv125@gmail.com">minhpv125@gmail.com</a><br/>
+        <b>Điện thoại</b>: <a href="tel:0913268296">0913268296</a></p>
+         ]]>
+    </string>
+    <string name="csv_help">
+        <![CDATA[
+        <p><b>CHÚ Ý:</b> Tất cả các file CSV sử dụng để import dữ liệu đều phải sử dụng dấu phẩy (,) để làm phân cách giữa các thành phần dữ liệu (các trường trong 1 hàng) và dấu ngoặc kép (\") để đóng mở dữ liệu của trường trong trường hợp 
+        dữ liệu chứa dấu phẩy. Để biết thêm chi tiết về file CSV, định dạng, cách sử dụng cũng như cách xuất file CSV từ Excel xin vui lòng theo các đường dẫn sau:<p>
+        <p><a href="http://www.computerhope.com/jargon/c/csv.htm">File CSV là gì và định dạng</a><br/>
+        <a href="http://support2.constantcontact.com/articles/FAQ/1868">Xuất dữ liệu Excel dưới dạng file CSV</a></p>
+        ]]>
+    </string>
+    <string name="help_import_product_cat">
+        <![CDATA[
+        <p><b>Định dạng hàng dữ liệu file CSV để import dữ liệu cho loại sản phẩm:</b></p>
+        <p><i>tên loại sản phẩm,ghi chú về loại sản phẩm</i></p>
+        <p><b>Ví dụ:</b></p>
+        <p>Product category 1,Note 1<br/> 
+        Product category 2,Note 2<br/>
+        Product category 3,Note 3</p>
+        ]]>
+    </string>
+    <string name="help_import_sale_line">
+        <![CDATA[
+        <p><b>Định dạng hàng dữ liệu file CSV để import dữ liệu cho tuyến báng hàng:</b></p>
+        <p><i>tên tuyến,địa chỉ tuyến</i></p>
+        <p><b>Ví dụ:</b></p>
+        <p>Line 1,Ha noi<br/>
+		Line 2,Bac Giang<br/>
+		Line 3,Thai Binh</p>
+        ]]>
+    </string>
+    <string name="help_import_product">
+        <![CDATA[
+        <p><b>Định dạng hàng dữ liệu file CSV để import dữ liệu cho sản phẩm:</b></p>
+        <p><i>tên sản phẩm,mã sản phẩm,đơn giá,số lượng mua BOGO,số lượng tặng BOGO</i></p>
+        <p><b>Ví dụ:</b></p>
+        <p>Product 1,PROD-1,100,10,1<br/>
+        Product 2,PROD-2,150,0,0<br/>
+        Product 3,PROD-3,200,,</p>
+        ]]>
+    </string>
+    <string name="help_import_customer">
+        <![CDATA[
+        <p><b>Định dạng hàng dữ liệu file CSV để import dữ liệu khách hàng:</b></p>
+        <p><i>tên cửa hàng,tên chủ cửa hàng,địa chỉ,điện thoại di động,điện thoại bàn,ghi chú,đánh giá,xếp hạng sao</i></p>
+        <p><b>Ví dụ:</b></p>
+        <p>Shop 1,Owner 1,Ha Noi,099959552,044233543,No note,Every potential,3<br/>
+        Shop 2,Owner 2,Ha Noi,099900552,044211543,No note,Every potential,5<br/>
+        Shop 3,Owner 3,Ha Noi,099959552,,,Every potential,3</p>
+        ]]>
+    </string>
+
+    <string name="breakdown_daily">Nhóm theo ngày</string>
+    <string name="breakdown_weekly">Nhóm theo tuần</string>
+    <string name="breakdown_monthly">Nhóm theo tháng</string>
+    <string name="breakdown_yearly">Nhóm theo năm</string>
+    
+    <string name="importing">Import</string>
+    <string name="please_wait">Xin vui lòng đợi&#8230;</string>
+    <string name="items_imported">mục dữ liệu đã được import thành công</string>
+
+    <string name="change_lang_alert">Bạn phải khởi động lại ứng dụng để thay đổi giao diện sang ngôn ngữ mới</string>
+    <string name="user_email_exist_alert">Địa chỉ email này đã được sử dụng</string>
+    
+    <string name="charts">Biểu đồ</string>
+    <string name="sales_revenue">Doanh số bán hàng</string>
+    <string name="sales_focast">Dự báo doanh số</string>
+    <string name="sales_growth">Tăng trưởng doanh số</string>
+    <string name="orders_chart">Biểu đồ đơn hàng</string>
+    
+    <string name="date_range">Khoảng thời gian</string>
+    <string name="start_date">Từ ngày</string>
+    <string name="end_date">Đến ngày</string>
+</resources>

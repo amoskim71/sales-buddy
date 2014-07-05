@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+<LinearLayout android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spnCustomerType"
+        android:entries="@array/customer_type_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtShopName"
+        android:hint="@string/shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtOwnerName"
+        android:hint="@string/owner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName|textCapWords" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/address"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Spinner
+        android:id="@+id/spnLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtAddress"
+        android:hint="@string/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress|textCapSentences" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/phone"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/txtMobilePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/mobile_phone"
+            android:inputType="phone" />
+
+        <ImageButton
+            android:id="@+id/btnCallMobile"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_weight="0"
+            android:clickable="true"
+            android:background="@drawable/selector_with_transparency"
+            android:src="@drawable/ic_call_gray" />
+
+    </LinearLayout>
+	<LinearLayout
+	    android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >        
+
+     	<EditText
+     	    android:id="@+id/txtLandlinePhone"
+     	    android:layout_width="match_parent"
+     	    android:layout_height="wrap_content"
+     	    android:ems="10"
+            android:layout_weight="1"
+     	    android:hint="@string/landline_phone"
+     	    android:inputType="phone" />
+
+		<ImageButton
+            android:id="@+id/btnCallLandline"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_weight="0"
+            android:clickable="true"
+            android:background="@drawable/selector_with_transparency"
+            android:src="@drawable/ic_call_gray" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/evaluation_text"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtEvaluation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/evaluation_text"
+        android:inputType="textMultiLine|textCapSentences" />
+
+    <EditText
+        android:id="@+id/txtNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/note"
+        android:inputType="textMultiLine|textCapSentences" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/rate"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <RatingBar
+            android:id="@+id/rateBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:numStars="5"
+            android:stepSize="1" />
+
+</LinearLayout>
+</ScrollView>

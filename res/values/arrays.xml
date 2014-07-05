@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="order_type_names">
+        <item>@string/order_type</item>
+        <item>@string/order_type_retail</item>
+        <item>@string/order_type_wholesale</item>
+    </array>
+    
+    <array name="customer_type_names">
+        <item>@string/customer_type</item>
+        <item>@string/customer_type_private</item>
+        <item>@string/customer_type_company</item>
+    </array>
+    <array name="languages">
+        <item>@string/language</item>
+        <item>@string/english</item>
+        <item>@string/vietnamese</item>
+    </array>
+    
+    <array name="genders">
+        <item>@string/user_gender</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </array>
+    
+    <string-array name="customer_dropdown_items">
+        <item>@string/show_all</item>
+        <item>@string/top_20_order_value</item>
+        <item>@string/top_20_rated</item>
+    </string-array>
+    
+    <string-array name="order_breakdowns">
+        <item>@string/breakdown_daily</item>
+        <item>@string/breakdown_weekly</item>
+        <item>@string/breakdown_monthly</item>
+        <item>@string/breakdown_yearly</item>
+    </string-array>
+</resources>
