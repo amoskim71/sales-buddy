@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:minHeight="64dp"
+    android:background="@drawable/saovietcrm_list_item">
+    
+    <TextView 
+        android:id="@+id/lblPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnDelete"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/selector_with_transparency"
+        android:src="@drawable/ic_discard_gray" />
+
+    <include 
+        android:id="@+id/baseListItem"
+        android:layout_toLeftOf="@id/lblPrice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/list_item_simple_2"/>
+    
+</RelativeLayout>

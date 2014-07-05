@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sales Buddy</string>
+    
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="save">Save</string>
+    <string name="customer">Customer</string>
+    <string name="quantity">Quantity</string>
+    <string name="discount">Discount (%)</string>
+    <string name="select">Select</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome:</string>
+    <string name="delete">Delete</string>
+    <string name="no_items">No items</string>
+    
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="import_export">Import</string>
+    
+    <string name="line_add">Add new line</string>
+    <string name="line_edit">Edit line</string>
+    <string name="line_name">Line name</string>
+    <string name="line_address">Line address</string>
+    
+    <string name="product_name">Product name</string>
+    <string name="product_code">Product code</string>
+    <string name="product_price">Unit price</string>
+    <string name="bogo_discount">BOGO discount</string>
+    <string name="bogo_buy">Purchase quantity</string>
+    <string name="bogo_get">Get free quantity</string>
+    
+    <string name="order_type">Order type</string>
+    <string name="order_type_retail">Retail</string>
+    <string name="order_type_wholesale">Wholesale</string>
+    
+    <string name="customer_type">Customer type</string>
+    <string name="customer_type_private">Private</string>
+    <string name="customer_type_company">Company</string>
+    <string name="shop_name">Shop name</string>
+    <string name="owner_name">Owner name</string>
+    <string name="mobile_phone">Mobile phone</string>
+    <string name="landline_phone">Landline phone</string>
+    <string name="sale_line">Sale line</string>
+    <string name="note">Note</string>
+    <string name="rate">Rate</string>
+    <string name="evaluation_text">Evaluation</string>
+    <string name="phone">Phone</string>
+    <string name="price">Price</string>
+    <string name="total_price">Total price</string>
+    <string name="total_price_colon">Total price:</string>
+    <string name="order_details">Order details</string>
+
+    <string name="quantity_discount">Quantity &amp; discount</string>
+    <string name="quantity_price">Quantity &amp; price</string>
+    <string name="gender_dob">Gender &amp; DOB</string>
+    
+    <string name="customer_management">Customer management</string>
+    <string name="product_management">Product management</string>
+    <string name="order_management">Order management</string>
+    <string name="saleline_management">Sale line management</string>
+    <string name="product_cat_management">Product category management</string>
+    <string name="calculator">Price calculator</string>
+    <string name="settings">Settings</string>
+    
+    <string name="customers">Customers</string>
+    <string name="products">Products</string>
+    <string name="orders">Orders</string>
+    <string name="sale_lines">Sale Lines</string>
+    <string name="order_line_items">Order line items</string>
+    <string name="product_cats">Product categories</string>
+    <string name="category">Category</string>
+
+    <string name="add_product_cat">Add product category</string>
+    <string name="edit_product_cat">Edit product category</string>
+    
+    <string name="add_customer">Add customer</string>
+    <string name="edit_customer">Edit customer</string>
+
+    <string name="add_product">Add product</string>
+    <string name="edit_product">Edit product</string>
+
+    <string name="add_sale_line">Add sale line</string>
+    <string name="edit_sale_line">Edit sale line</string>   
+
+    <string name="add_order">Add order</string>
+    <string name="edit_order">Edit order</string>
+    
+    <string name="add_order_line_item">Add line item</string>
+    <string name="edit_order_line_item">Edit line item</string>
+
+    <string name="user_email">Email address</string>
+    <string name="user_password">Password</string>
+    <string name="user_password_confirm">Confirm password</string>
+    <string name="user_fullname">Full name</string>
+    <string name="user_phone">Phone number</string>
+    <string name="user_dob">Date of birth</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_login_fail">Login fails! Please check your email and password</string>
+    <string name="user_login_empty_fields">Please enter your email and password.</string>
+    <string name="user_login_remember">Remember me</string>
+    
+    <string name="customer_alert_type">Please select customer type</string>
+    <string name="customer_alert_shopname">Please enter shop name</string>
+    <string name="customer_alert_ownername">Please enter owner name</string>
+    <string name="customer_alert_address">Please enter address</string>
+    <string name="customer_alert_phone">Please enter at least one phone number</string>
+    
+    <string name="order_alert_customer">Please select customer</string>
+    <string name="order_alert_type">Please select order type</string>
+    <string name="order_alert_quantity">Please enter quantity</string>
+    <string name="order_alert_quantity_invalid">Please enter a valid quantity</string>
+    <string name="order_alert_product">Please select product</string>
+    
+    <string name="product_alert_name">Please enter product name</string>
+    <string name="product_alert_code">Please enter product code</string>
+    <string name="product_alert_price">Please enter product price</string>
+
+    <string name="line_alert_name">Please enter name</string>
+    <string name="line_alert_address">Please enter address</string>
+    
+    <string name="user_alert_name">Please enter your full name</string>
+    <string name="user_alert_email">Please enter your email</string>
+    <string name="user_alert_phone">Please enter your phone number</string>
+    <string name="user_alert_password">Please enter your password</string>
+    <string name="user_alert_password_confirm">Passwords are not the same</string>
+    <string name="user_signup_fail">Fails to sign up user</string>
+    
+    <string name="delete_alert">Delete item?</string>
+    <string name="call_fail_alert">Can not make the call</string>
+    <string name="save_fail_alert">Fails to save item</string>
+    <string name="user_signup_success">Signup success</string>
+    
+    <string name="about_help">About &amp; Help</string>
+    <string name="help">Help</string>
+    <string name="select_file">Choose file</string>
+    <string name="unknown">Unknown</string>
+    <string name="total_price_and_quantity">Total quantity &amp; price</string>
+    
+    <string name="tools">Tools</string>
+    <string name="settings_tools">Settings &amp; tools</string>
+
+    <string name="import_customers">Import customers</string>
+    <string name="import_products">Import products</string>
+    <string name="import_lines">Import sale lines</string>
+    <string name="import_product_cats">Import product categories</string>
+    <string name="delete_old_items">Delete old items</string>
+    <string name="file_path">File path</string>
+    <string name="select_file">Select a file</string>
+    <string name="delete_old_items_warning">WARNING: Doing this will delete all existing items. Do you want to continue?</string>
+    <string name="select_file_alert">Please select a file</string>
+    
+    <string name="show_all">Show all</string>
+    <string name="top_20_order_value">Top 20 order value</string>
+    <string name="top_20_rated">Top 20 rated</string>
+    <string name="created_date">Created date</string>
+    
+    <string name="signup_success">Signup success!</string>
+    <string name="uncategorized">Uncategorized</string>
+    <string name="unlined">Unlined</string>
+
+    <string name="help_general">General help</string>
+    <string name="about_content">
+        <![CDATA[
+        <p>Copyright© 2014 <strong>Phi Van Minh</strong><br/>
+        All Rights Reserved<br/><br/>
+        Contact for more details:<br/> 
+        <b>Email</b>: <a href="mailto:minhpv125@gmail.com">minhpv125@gmail.com</a><br/>
+        <b>Tel</b>: <a href="tel:0913268296">0913268296</a></p>
+         ]]>
+        </string>
+    <string name="help_general_content">
+        <![CDATA[
+        <p>Copyright© 2014 <strong>Phi Van Minh</strong><br/>
+        All Rights Reserved</p>
+        <p>Contact for more details:</p> 
+        <p><b>Email</b>: <a href="mailto:minhpv125@gmail.com">minhpv125@gmail.com</a><br/>
+        <b>Tel</b>: <a href="tel:0913268296">0913268296</a></p>
+         ]]>
+    </string>
+    <string name="csv_help">
+        <![CDATA[
+        <p><b>NOTE:</b> All the CSV files should use commas as separators and double quotes (") as quote escapes. Fore more information about
+        the CSV file and how to export Excel data to CSV file, please check the following links:</p>
+        <p><a href="http://www.computerhope.com/jargon/c/csv.htm">What is CSV file?</a><br/>
+        <a href="http://support2.constantcontact.com/articles/FAQ/1868">Export CSV data from Excel</a></p>
+        ]]>
+    </string>
+    <string name="help_import_product_cat">
+        <![CDATA[
+        <p><b>CSV data line format for product categories:</b></p>
+        <p><i>product category name, product category note</i></p>
+        <p><b>Examples:</b></p>
+        <p>Product category 1,Note 1<br/> 
+        Product category 2,Note 2<br/>
+        Product category 3,Note 3</p>
+        ]]>
+    </string>
+    <string name="help_import_sale_line">
+        <![CDATA[
+        <p><b>CSV data line format for sale lines:</b></p>
+        <p><i>line name,line address</i></p>
+        <p><b>Examples:</b></p>
+        <p>Line 1,Ha noi<br/>
+		Line 2,Bac Giang<br/>
+		Line 3,Thai Binh</p>
+        ]]>
+    </string>
+    <string name="help_import_product">
+        <![CDATA[
+        <p><b>CSV data line format for products:</b></p>
+        <p><i>product name,product code, unit price, BOGO purchase quantity, BOGO get quantity</i></p>
+        <p><b>Examples:</b></p>
+        <p>Product 1,PROD-1,100,10,1<br/>
+        Product 2,PROD-2,150,0,0<br/>
+        Product 3,PROD-3,200,,</p>
+        ]]>
+    </string>
+    <string name="help_import_customer">
+        <![CDATA[
+        <p><b>CSV data line format for customers:</b></p>
+        <p><i>shop name,owner name,address,mobile phone,landline phone,note,evaluation,rate</i></p>
+        <p><b>Examples:</b></p>
+        <p>Shop 1,Owner 1,Ha Noi,099959552,044233543,No note,Every potential,3<br/>
+        Shop 2,Owner 2,Ha Noi,099900552,044211543,No note,Every potential,5<br/>
+        Shop 3,Owner 3,Ha Noi,099959552,,,Every potential,3</p>
+        ]]>
+    </string>
+    
+    <string name="breakdown_daily">Daily breakdown</string>
+    <string name="breakdown_weekly">Weekly breakdown</string>
+    <string name="breakdown_monthly">Monthly breakdown</string>
+    <string name="breakdown_yearly">Yearly breakdown</string>
+
+    <string name="importing">Importing</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="items_imported">items have been imported</string>
+    
+    <string name="change_lang_alert">You must restart the application in order for the chosen language to be applied</string>
+    <string name="user_email_exist_alert">This email address is already in use</string>
+    
+    <string name="charts">Charts</string>
+    <string name="sales_revenue">Sales revenue</string>
+    <string name="sales_focast">Sales focast</string>
+    <string name="sales_growth">Sales growth</string>
+    <string name="orders_chart">Orders chart</string>
+    
+    <string name="date_range">Date range</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    
+</resources>

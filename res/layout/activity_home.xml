@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:text="@string/welcome" />
+
+        <TextView
+            android:id="@+id/lblCurrentUser"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCustomerManagement"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_group"
+        android:text="@string/customer_management" />
+
+    <Button
+        android:id="@+id/btnProductManagement"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lightbulb"
+        android:text="@string/product_management" />
+
+    <Button
+        android:id="@+id/btnOrderManagement"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="@string/order_management" />
+
+    <Button
+        android:id="@+id/btnSaleLineManagement"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_sitemap"
+        android:text="@string/saleline_management" />
+
+    <Button
+        android:id="@+id/btnPriceCalculator"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_grid"
+        android:text="@string/calculator" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_settings"
+        android:text="@string/settings" />
+
+    <Button
+        android:id="@+id/btnLogout"
+    	android:layout_marginBottom="16dp"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_signout"
+        android:text="@string/logout" />
+
+</LinearLayout>
+</ScrollView>
