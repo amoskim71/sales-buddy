@@ -103,9 +103,9 @@ public class HomeListActivity extends LoggedInRequiredActivity implements OnItem
 				R.drawable.saoviet_ic_grid,
 				PriceCalculatorListActivity.class));
 
-		mItems.add(new ListMenuItem(R.string.charts, 
+		/*mItems.add(new ListMenuItem(R.string.charts, 
 				R.drawable.saoviet_ic_chart,
-				ChartListActivity.class));
+				ChartListActivity.class));*/
 
 		mItems.add(new ListMenuItem(R.string.settings_tools, 
 				R.drawable.saoviet_ic_settings,
