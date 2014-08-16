@@ -8,5 +8,7 @@
 	<classpathentry kind="lib" path="libs/opencsv-2.3.jar"/>
 	<classpathentry kind="lib" path="libs/achartengine-1.1.0.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/aFileChooser"/>
+	<classpathentry kind="lib" path="/aFileChooser/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/afilechooser.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
